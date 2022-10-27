@@ -1,0 +1,56 @@
+.header {
+    font-size: 14px;
+    width: 100%;
+    background: #ffffff;
+}
+
+.header_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.header_currency {
+    font-size: 22px;
+}
+
+.header_currency-body {
+    display: flex;
+    gap: 3rem;
+}
+
+.header_currency-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header_currency-item svg {
+    font-size: 35px;
+}
+
+@media screen and (max-width: 878.98px) {
+    .header_body {
+        height: 100px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 633.98px) {
+    .header_body {
+        text-align: center;
+        height: 100px;
+        font-size: 12px;
+    }
+    .header_currency {
+        font-size: 14px;
+    }
+    .header_currency-item svg {
+        font-size: 25px;
+    }
+    .header_currency-item {
+        flex-direction: column;
+        gap: 5px;
+    }
+}

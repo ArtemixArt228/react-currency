@@ -1,0 +1,55 @@
+.exchange-form {
+    display: flex;
+    gap: 2rem;
+}
+
+.input-field {
+    width: 300px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline-width: 0px;
+    color: #ffffff;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.select-field {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-size: 22px;
+    background: #0f0c29;
+    outline-width: 0px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+}
+
+.option-field {
+    height: 100%;
+}
+
+@media screen and (max-width: 878.98px) {
+    .input-field {
+        width: 70%;
+    }
+    .select-field {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 648.98px) {
+    .exchange-form {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    .input-field {
+        width: 100%;
+    }
+    .select-field {
+        width: 100%;
+    }
+}
+
